@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.deck-gradient {
+  background: radial-gradient(circle at 20% 20%, rgba(255, 103, 31, 0.25), transparent 35%),
+    radial-gradient(circle at 80% 30%, rgba(4, 106, 56, 0.2), transparent 40%),
+    radial-gradient(circle at 50% 75%, rgba(13, 29, 74, 0.4), transparent 45%);
+}
